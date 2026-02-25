@@ -1,16 +1,53 @@
-# React + Vite
+# Frontend React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Production-ready frontend application built with React.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project focuses on clean architecture, reusable components, and responsive UI.
+Code is written with readability and scalability in mind.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Tailwind CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## Key Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Mobile-first responsive layout
+- Component-driven architecture
+- Dynamic rendering using data mapping
+- Clean state management
+- Clear separation of concerns
+
+## Project Structure
+
+src  
+components  
+pages  
+data  
+assets  
+
+Each component has a single responsibility.
+Shared UI is reusable.
+Data is isolated from presentation.
+
+## Performance & UX
+
+- Optimized rendering
+- Proper key usage in lists
+- Minimal re-renders
+- Smooth user interaction
+
+## How to Run Locally
+
+- npm install
+- npm run dev
+
+## What This Project Shows
+
+- Solid understanding of React fundamentals
+- Practical UI implementation
+- Attention to structure and maintainability
+- Readiness to work on real products
