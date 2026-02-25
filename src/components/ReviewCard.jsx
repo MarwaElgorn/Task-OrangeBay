@@ -1,27 +1,39 @@
 import { FaStar } from "react-icons/fa";
-
-export default function ReviewCard({ review }) {
+export default function ReviewCard({ name, rating, title, text, active }) {
   return (
-    <div className="bg-white rounded-2xl p-8 shadow-md h-full">
-      <div className="flex items-center gap-4">
-        <div className="w-12 h-12 rounded-full bg-gray-300"></div>
-        <div>
-          <p className="font-semibold">{review.name}</p>
-          <div className="flex text-primary">
+    <div
+      className={`
+        bg-white
+        shadow-[0_8px_24px_rgba(0,0,0,0.06)]
+        transition-all duration-300
+        flex flex-col items-center text-center
+       px-4 py-[80px] m-6 rounded-lg
+      `}
+    >
+      <div className="flex items-center gap-4 mb-8">
+        <div className="w-14 h-14 rounded-full bg-gray-300" />
+
+        <div className="text-left">
+          <h4 className="font-medium">{name}</h4>
+          <div className="flex">
             {Array.from({ length: 5 }).map((_, i) => (
-              <FaStar
+              <span
                 key={i}
-                className={i < review.rating ? "" : "opacity-30"}
-              />
+                className={i < rating ? "text-[#FFA033] " : "text-gray-300"}
+              >
+          <FaStar />
+              </span>
             ))}
           </div>
         </div>
       </div>
 
-      <h4 className="mt-6 font-semibold">{review.title}</h4>
+      <h3 className="text-xl font-semibold mb-6">
+        {title}
+      </h3>
 
-      <p className="mt-3 text-gray-600 text-sm leading-relaxed">
-        {review.text}
+      <p className="text-gray-600 leading-relaxed max-w-[520px]">
+        {text}
       </p>
     </div>
   );

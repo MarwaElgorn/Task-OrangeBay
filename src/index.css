@@ -6,3 +6,28 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.custom-bullet {
+  width: 17px;
+  height: 17px;
+  border-radius: 9999px;
+  background: #d1d5db;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+}
+
+.custom-bullet-active {
+  background: #7B7B7B;
+  opacity: 1;
+}
+.custom-pagination {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-pagination {
+  position: static !important;
+}
