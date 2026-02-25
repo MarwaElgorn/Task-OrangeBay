@@ -1,12 +1,12 @@
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import FooterSection from "../components/FooterSection";
 
 function MainLayout({ children }) {
   return (
     <>
       <Navbar />
       <main>{children}</main>
-      <Footer />
+      <FooterSection />
     </>
   );
 }
