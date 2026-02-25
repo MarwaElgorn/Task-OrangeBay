@@ -1,53 +1,61 @@
-# Frontend React Project
+# Orange Bay Frontend Task
 
-Production-ready frontend application built with React.
-
-## Overview
-
-This project focuses on clean architecture, reusable components, and responsive UI.
-Code is written with readability and scalability in mind.
+Frontend application built with React and Vite.
+Focus on clean UI, reusable components, and responsive layout.
 
 ## Tech Stack
 
-- React
+- React 19
+- Vite
 - Tailwind CSS
-- JavaScript
+- Swiper.js
+- React Icons
 
-## Key Highlights
+## Key Features
 
-- Mobile-first responsive layout
-- Component-driven architecture
-- Dynamic rendering using data mapping
-- Clean state management
-- Clear separation of concerns
+- Mobile-first responsive design
+- Reusable and modular components
+- Dynamic UI rendering from data
+- Slider implementation using Swiper
+- Clean and organized project structure
 
 ## Project Structure
 
 src  
 components  
-pages  
+sections  
 data  
 assets  
 
-Each component has a single responsibility.
-Shared UI is reusable.
-Data is isolated from presentation.
+Each component has a clear responsibility.
+UI is separated from data logic.
 
-## Performance & UX
+## UI & Performance
 
-- Optimized rendering
 - Proper key usage in lists
-- Minimal re-renders
-- Smooth user interaction
+- Optimized re-rendering
+- Grid and Flex used based on layout needs
+- Smooth slider interaction
 
-## How to Run Locally
+## Scripts
+
+- npm run dev  
+  Start development server
+
+- npm run build  
+  Build production version
+
+- npm run preview  
+  Preview production build locally
+
+## Setup
 
 - npm install
 - npm run dev
 
-## What This Project Shows
+## What This Project Demonstrates
 
 - Solid understanding of React fundamentals
-- Practical UI implementation
-- Attention to structure and maintainability
-- Readiness to work on real products
+- Practical usage of third-party libraries
+- Clean UI implementation
+- Readiness for real-world frontend tasks
