@@ -27,8 +27,8 @@ export default function HeroSection() {
           className="
             font-bold
             leading-tight
-            text-3xl
-            sm:text-4xl
+            text-2xl
+            sm:text-3xl
             md:text-5xl
             lg:text-6xl
           "
