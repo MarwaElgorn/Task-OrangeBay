@@ -7,7 +7,8 @@ export default function HeroSection() {
       aria-label="Hero section"
       className="
         relative
-        min-h-[100svh]
+        min-h-[70svh]
+        sm:min-h-[100svh]
         w-full
         bg-cover
         bg-center
